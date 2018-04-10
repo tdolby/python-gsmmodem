@@ -7,6 +7,8 @@ source =
 omit =
     # Omit Python 2.6 and 3 compatibility wrappers
     gsmmodem/compat.py
+    # Ignore experimental gprs code (see comment in file itself)
+    gsmmodem/gprs.py
     tools/gsmtermlib/posoptparse.py
     # Omit GSMTerm UI
     tools/gsmtermlib/terminal.py
